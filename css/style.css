@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+:root {
+  --color-1: #e94560;
+  --color-2: white;
+  --color-3: rgba(183, 183, 183, 0.1);
+  --bg-1: #1a1a2e;
+  --bg-2: #16213E;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--bg-1);
+  font-family: "Poppins", sans-serif;
+}
+
+#aboutme{
+  background-color: var(--bg-2);
+}
+
+#contact-body {
+  background-color: var(--color-1);
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#welcome-text,
+#contact-text {
+  font-size: 200px;
+  padding: 34px 34px 0px 34px;
+  text-transform: uppercase;
+}
+
+#welcome-text, #welcome-text1 {
+  color: var(--color-3);
+}
+
+#welcome-text1 {
+  font-size: 100px;
+}
+
+#contact-text {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+#name-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#suvam-text,
+#portfolio-text, #contact-line {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#suvam-text {
+  color: var(--color-2);
+}
+#portfolio-text {
+  color: var(--color-1);
+}
+
+#aboutLink {
+  display: block;
+  padding-top: 0.5em;
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+p {
+  color: var(--color-2);
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 200;
+}
+
+#social-links .social-a{
+    margin: 1em 2em 1em 2em;
+}
+
+.about-para{
+  line-height: 24px;
+  word-spacing: 2px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.btn{
+  margin-top: 2em;
+  border-radius: 3rem;
+  color: white;
+  background-color: var(--color-1);
+  padding: 0.6rem 1rem;
+}
+
+.btn-color{
+  border-style: none;
+}
+
+.myname{
+  background-color: #0a0a16;
+  padding: 0.4em;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.exp-img{
+  background: url('/images/Rectangle91.png');
+}
+
+.list-group-item{
+  background-color: var(--color-3);
+  color: wheat;
+}
+
+.list-group-item a{
+  text-decoration: none;
+  color: wheat;
+}
+
+.list-group-item a:hover{
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+.work-para{
+  padding: 10em 10em;
+  line-height: 30px;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  font-size: 0.9em;
+}
+
+.proj-links{
+  color: var(--color-1);
+  text-decoration: none;
+}
+
+.proj-links:hover{
+  color: wheat;
+  text-decoration: none;
+}
+
+.proj-div{
+  margin: 1em 0em;
+}
+
+.date{
+  color: #B8B8B8;
+  font-size: 0.7em;
+}
+
+.stats-para{
+  color: var(--color-2);
+  background-color: var(--bg-2);
+  padding: 1em;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+/*mobile media query*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #welcome-text,
+#contact-text {
+  font-size: 2.2em;
+  padding: 34px 34px 0px 34px;
+  text-transform: uppercase;
+}
+
+#welcome-text1 {
+  font-size: 2.2em;
+}
+
+.work-para{
+  padding: 2em 2em;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  #welcome-text,
+  #contact-text {
+    font-size: 6em;
+    padding: 34px 34px 0px 34px;
+    text-transform: uppercase;
+  }
+  
+  #welcome-text1 {
+    font-size: 6em;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #welcome-text,
+  #contact-text {
+    font-size: 9em;
+    padding: 34px 34px 0px 34px;
+    text-transform: uppercase;
+  }
+  
+  #welcome-text1 {
+    font-size: 9em;
+  }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1160px) {
+  #welcome-text,
+  #contact-text {
+    font-size: 200px;
+    padding: 34px 34px 0px 34px;
+    text-transform: uppercase;
+  }
+  
+  #welcome-text1 {
+    font-size: 100px;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
