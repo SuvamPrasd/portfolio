@@ -33,6 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 3em;
+  
 }
 
 .main1 {
@@ -113,7 +114,7 @@ p {
   border-radius: 3rem;
   color: white;
   background-color: var(--color-1);
-  padding: 0.6rem 1rem;
+  padding: 1rem 2rem;
 }
 
 .btn-color{
@@ -256,3 +257,5 @@ p {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
+
+
