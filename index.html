@@ -16,20 +16,25 @@
     <div class="main">
       <div class="container text-center">
         <div class="row">
-          <div class="col-12">
-            <!--html svg-->
-            <div class="card-container">
-              <div class="card">
-                <div class="front">
-                  A
-                </div>
-                <div class="back">
-                  B
-                </div>
-              </div>
+          <div class="col-12"> 
+            <!-- <h1 id="welcome-text">Welcome</h1> -->
+            <div id="typed-strings">
+              <h1>Welcome</h1>
+              <h1>Guys, I am</h1>
+              <h1><em>Suvam</em></h1>
+              <h1>Developer</h1>
             </div>
-            <!--svg end-->
-            <h1 id="welcome-text">Welcome</h1>
+            <span id="welcome-text"></span>
+            <script>
+              var typed = new Typed('#welcome-text', {
+                stringsElement: '#typed-strings',
+                typeSpeed: 0,
+                backSpeed: 0,
+                backDelay: 1000,
+                startDelay: 800,
+                loop: true,
+              });
+            </script>
             <div class="name-text">
               <span id="suvam-text">Suvam's</span>
               <span id="portfolio-text">Portfolio</span>
