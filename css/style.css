@@ -432,34 +432,6 @@ p {
   background: #fff;
 }
 
-.color-change-3x {
-  -webkit-animation: color-change-3x 4s linear infinite alternate both;
-  animation: color-change-3x 4s linear infinite alternate both;
-}
-
-@-webkit-keyframes color-change-3x {
-  0% {
-    background: #19dcea;
-  }
-  50% {
-    background: #b22cff;
-  }
-  100% {
-    background: #ea2222;
-  }
-}
-@keyframes color-change-3x {
-  0% {
-    background: #19dcea;
-  }
-  50% {
-    background: #b22cff;
-  }
-  100% {
-    background: #ea2222;
-  }
-}
-
 /*mobile media query*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
