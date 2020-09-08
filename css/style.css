@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 :root {
-  --color-1: #e94560;
+  --color-1: #ee627a;
   --color-2: white;
   --color-3: rgba(183, 183, 183, 0.1);
   --bg-1: #1a1a2e;
@@ -21,6 +21,39 @@ body {
 
 #aboutme {
   background-color: var(--bg-2);
+}
+
+#bgc,
+#bgc1,
+#bgc2,
+#bgc3 {
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#bgc {
+  background: url("/images/bird.jpg") center center no-repeat;
+}
+
+#bgc1 {
+  background: url("/images/desk.jpg") center center no-repeat;
+}
+
+#bgc2 {
+  background: url("/images/road.jpg") center center no-repeat;
+}
+
+#bgc3 {
+  background: url("/images/black.jpg") center center no-repeat;
+}
+
+#bgc4 {
+  background: url("/images/camera.jpg") center center no-repeat;
 }
 
 #contact-body {
@@ -449,6 +482,14 @@ p {
   .work-para {
     padding: 2em 2em;
   }
+}
+
+.hvr-float-shadow {
+  box-shadow: none;
+}
+
+.hvr-float-shadow:hover {
+  box-shadow: 0 2px 0px rgb(245, 61, 61);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
