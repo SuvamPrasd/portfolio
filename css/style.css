@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 :root {
@@ -26,7 +26,9 @@ body {
 #bgc,
 #bgc1,
 #bgc2,
-#bgc3 {
+#bgc3,
+#bgc4,
+#bgc5 {
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -54,6 +56,10 @@ body {
 
 #bgc4 {
   background: url("/images/camera.jpg") center center no-repeat;
+}
+
+#bgc5 {
+  background: url("/images/cup.jpg") center center no-repeat;
 }
 
 #contact-body {
@@ -330,8 +336,10 @@ p {
 .about-para {
   line-height: 24px;
   word-spacing: 2px;
-  font-weight: 100;
-  letter-spacing: 1px;
+  font-weight: 200;
+  background-color: rgba(0, 0, 0, 0.424);
+  padding: 2em;
+  letter-spacing: 1.4px;
 }
 
 .btn {
