@@ -47,7 +47,7 @@ body {
 }
 
 #bgc2 {
-  background: url("/images/road.jpg") center center no-repeat;
+  background: url("/images/lemon.jpg") center center no-repeat;
 }
 
 #bgc3 {
@@ -326,7 +326,7 @@ p {
   color: var(--color-2);
   font-size: 15px;
   margin-top: 5px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 #social-links .social-a {
@@ -494,10 +494,6 @@ p {
 
 .hvr-float-shadow {
   box-shadow: none;
-}
-
-.hvr-float-shadow:hover {
-  box-shadow: 0 2px 0px rgb(245, 61, 61);
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
