@@ -16,7 +16,16 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
+  <style>
+    .card-title{
+      color: violet;
+    }
+    .card{
+      border: none;
+      background-color: rgba(0, 0, 0, 0.404);
+    }
+  </style>
+  <body id="bgc6">
     <div class="main">
       <div class="container">
         <div class="row">
@@ -32,24 +41,46 @@
           </div>
           </div>
           </div>
-          <img
-              src="./images/artGallery.png"
-              alt="first_image"
-              class="img-fluid design1"
-            />
-            <div class="mt-4"></div>
-            <img
-              src="./images/foodmania.png"
-              alt="first_image1"
-              class="img-fluid design2"
-            />
-            <div class="mt-4"></div>
-            <img
-              src="./images/fox.png"
-              alt="first_image2"
-              class="img-fluid design3"
-            />
-        </div>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col mb-4">
+                <div class="card hvr-bounce-out">
+                  <img src="./images/foodmania.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title display-4">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card hvr-bounce-out">
+                  <img src="./images/aboutme.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title display-4">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card hvr-bounce-out">
+                  <img src="./images/twitter-new.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title display-4">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col mb-4">
+                <div class="card hvr-bounce-out">
+                  <img src="./images/landing-page.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title display-4">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="d-flex justify-content-center">
           <a href="./experience.html" class="btn btn-color hvr-hang">Back</a>
           <!-- <a href="./next.html" class="btn btn-color hvr-hang">Next</a> -->

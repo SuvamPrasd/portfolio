@@ -28,7 +28,8 @@ body {
 #bgc2,
 #bgc3,
 #bgc4,
-#bgc5 {
+#bgc5,
+#bgc6 {
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -60,6 +61,10 @@ body {
 
 #bgc5 {
   background: url("/images/cup.jpg") center center no-repeat;
+}
+
+#bgc6 {
+  background: url("/images/abst.jpg") center center no-repeat;
 }
 
 #contact-body {
