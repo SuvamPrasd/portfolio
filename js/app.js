@@ -1,11 +1,11 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyAE0LSd2woLl3nSoxucHuVbpFSmMHp35Qc",
-    authDomain: "portfolio-3f38e.firebaseapp.com",
-    databaseURL: "https://portfolio-3f38e.firebaseio.com",
-    projectId: "portfolio-3f38e",
-    storageBucket: "portfolio-3f38e.appspot.com",
-    messagingSenderId: "1087898606033",
-    appId: "1:1087898606033:web:2bdd1742f112f692b528f0"
+    apiKey: "AIzaSyDxkzTR8KmMuhGJaRxkRlWsebZHz53rI9Q",
+    authDomain: "portfolio-21b4a.firebaseapp.com",
+    databaseURL: "https://portfolio-21b4a.firebaseio.com",
+    projectId: "portfolio-21b4a",
+    storageBucket: "portfolio-21b4a.appspot.com",
+    messagingSenderId: "6642758219",
+    appId: "1:6642758219:web:fd1dc8d8e53e82680253ce"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
