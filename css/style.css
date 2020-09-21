@@ -486,6 +486,20 @@ p {
   .tab-text{
     font-size: 11px;
   }
+  #welcome-text,
+  #contact-text {
+    font-size: 2.2em;
+    padding: 34px 34px 0px 34px;
+    text-transform: uppercase;
+  }
+
+  #welcome-text1 {
+    font-size: 2.2em;
+  }
+
+  .work-para {
+    padding: 2em 2em;
+  }
 }
 
 
