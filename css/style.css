@@ -65,6 +65,7 @@ body {
 
 #bgc6 {
   background: url("/images/abst.jpg") center center no-repeat;
+  background-attachment: fixed;
 }
 
 #contact-body {
