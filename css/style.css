@@ -57,6 +57,7 @@ body {
 
 #bgc4 {
   background: url("/images/camera.jpg") center center no-repeat;
+  background-attachment: fixed;
 }
 
 #bgc5 {
@@ -481,7 +482,14 @@ p {
 
 /*mobile media query*/
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 502px){
+  .tab-text{
+    font-size: 11px;
+  }
+}
+
+
+@media only screen and (min-width: 502px) and (max-width: 600px) {
   #welcome-text,
   #contact-text {
     font-size: 2.2em;
