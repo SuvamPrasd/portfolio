@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2f3943d-fdaf-4311-93be-7b092791418a/deploy-status)](https://app.netlify.com/sites/suvamp/deploys)
 # My Portfolio Design
 Nowadays, portfolio is necessary and pretty much important to showcase yourself as a developer or something else according your work. Basic portfolio includes following are the sections:
 
