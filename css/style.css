@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 :root {
@@ -23,50 +23,28 @@ body {
   background-color: var(--bg-2);
 }
 
-#bgc,
-#bgc1,
-#bgc2,
-#bgc3,
-#bgc4,
-#bgc5,
-#bgc6 {
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 #bgc {
-  background: url("/images/bird.jpg") center center no-repeat;
+  background-color: #342b38;
 }
 
-#bgc1 {
-  background: url("/images/desk.jpg") center center no-repeat;
-}
-
-#bgc2 {
-  background: url("/images/lemon.jpg") center center no-repeat;
+#bgc1{
+  background-color: #1f1f1f;
 }
 
 #bgc3 {
-  background: url("/images/black.jpg") center center no-repeat;
+  background-color: rgb(14, 14, 14);
 }
 
 #bgc4 {
-  background: url("/images/camera.jpg") center center no-repeat;
-  background-attachment: fixed;
+  background-color: #131313;
 }
 
 #bgc5 {
-  background: url("/images/cup.jpg") center center no-repeat;
+  background-color: #07031a;
 }
 
 #bgc6 {
-  background: url("/images/abst.jpg") center center no-repeat;
-  background-attachment: fixed;
+  background-color: #100303;
 }
 
 #contact-body {
@@ -80,6 +58,10 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 2em;
+}
+
+.card{
+  border-radius: 0px !important;
 }
 
 .main1 {
@@ -110,7 +92,7 @@ body {
 #welcome-text1 {
   color: var(--color-3);
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 #welcome-text1 {
@@ -418,11 +400,20 @@ p {
 
 .stats-para {
   color: var(--color-2);
-  background-color: var(--bg-2);
+  background-color: rgba(0, 0, 0, 0.123);
   padding: 1em;
   border-radius: 10px;
   letter-spacing: 1px;
   line-height: 25px;
+}
+
+.list-stat{
+  font-weight: 300;
+}
+
+.list-option-bg{
+  background-color: rgb(3, 3, 3) ;
+  color: white;
 }
 
 .card-container {
