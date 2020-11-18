@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Poppins:wght@300&display=swap');
+
+.img{
+  border-radius: 50px !important;
+  width: 100px;
+  padding: 5px;
+  border: 2px solid #2ECC71;
+}
+
+.row-para{
+  padding-right: 5em;
+  padding-left: 5em;
+}
+
+.head{
+/*     font-size: 20px; */
+    margin-top: 2em;
+  font-family: 'Cormorant Garamond', serif;
+  }
+  .para{
+    margin-top: 1em;
+    color: #5D6D7E;
+    line-height: 1.7em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-span{
+  color: #2E4053;
+}
+
+@media only screen and (max-width: 600px){
+  .img{
+    border-radius: 50px !important;
+    width: 50px;
+  }
+  .head{
+    font-size: 20px;
+    margin-top: 1.5em;
+  }
+  .para{
+    font-size: 14px;
+    margin-top: 0.5em;
+}
+  .row-para{
+  padding-right: 1em;
+  padding-left: 1em;
+}
+}
