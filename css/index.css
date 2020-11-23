@@ -1,27 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap");
 
-body{
-background-color: #ffffff;
-opacity: 1;
-background-image:  linear-gradient(30deg, #f3f3f3 12%, transparent 12.5%, transparent 87%, #f3f3f3 87.5%, #f3f3f3), linear-gradient(150deg, #f3f3f3 12%, transparent 12.5%, transparent 87%, #f3f3f3 87.5%, #f3f3f3), linear-gradient(30deg, #f3f3f3 12%, transparent 12.5%, transparent 87%, #f3f3f3 87.5%, #f3f3f3), linear-gradient(150deg, #f3f3f3 12%, transparent 12.5%, transparent 87%, #f3f3f3 87.5%, #f3f3f3), linear-gradient(60deg, #f3f3f377 25%, transparent 25.5%, transparent 75%, #f3f3f377 75%, #f3f3f377), linear-gradient(60deg, #f3f3f377 25%, transparent 25.5%, transparent 75%, #f3f3f377 75%, #f3f3f377);
-background-size: 80px 140px;
-background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+body {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: linear-gradient(
+      30deg,
+      #f3f3f3 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f3f3f3 87.5%,
+      #f3f3f3
+    ),
+    linear-gradient(
+      150deg,
+      #f3f3f3 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f3f3f3 87.5%,
+      #f3f3f3
+    ),
+    linear-gradient(
+      30deg,
+      #f3f3f3 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f3f3f3 87.5%,
+      #f3f3f3
+    ),
+    linear-gradient(
+      150deg,
+      #f3f3f3 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #f3f3f3 87.5%,
+      #f3f3f3
+    ),
+    linear-gradient(
+      60deg,
+      #f3f3f377 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #f3f3f377 75%,
+      #f3f3f377
+    ),
+    linear-gradient(
+      60deg,
+      #f3f3f377 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #f3f3f377 75%,
+      #f3f3f377
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
-
-.list-group-item{
+.list-group-item {
   border: none !important;
 }
 
-.nav-link{
-  color: #2C3E50;
+.nav-link {
+  color: #2c3e50;
   font-weight: none;
   background-color: none;
   transition: font-weight 100ms ease-in, background-color 200ms ease-in;
 }
 
-.nav-link:hover{
-/*   background-color: #F2F4F4; */
+.nav-link:hover {
+  /*   background-color: #F2F4F4; */
   color: white;
   border-radius: 7px;
   font-weight: bold;
@@ -31,27 +77,35 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
 @keyframes example {
-  0%   {background-color: #642B73;}
-  100% {background-color: #C6426E;}
+  0% {
+    background-color: #642b73;
+  }
+  100% {
+    background-color: #c6426e;
+  }
 }
 
-.nav-item{
+.nav-item {
   padding: 0.5em;
 }
 
-.happy-talk{
+.firstrow {
+  margin-top: 5rem;
+}
+
+.happy-talk {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
- font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
-.para{
-  font-family: 'Montserrat', sans-serif;
-  color: #808B96;
+.para {
+  font-family: "Montserrat", sans-serif;
+  color: #808b96;
 }
 
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -59,30 +113,30 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
   display: block;
 }
 
-.profile{
+.profile {
   border-radius: 5em;
   width: 100px;
-  border: 3px dotted #F5B041;
+  border: 3px dotted #f5b041;
   padding: 0.5em;
   transition: transform 200ms ease-in;
 }
 
-.profile:hover{
+.profile:hover {
   transform: scale(1.5);
 }
 
-@media only screen and (max-width: 600px){
-  .happy-talk{
-  font-size: 4rem;
+@media only screen and (max-width: 600px) {
+  .happy-talk {
+    font-size: 4rem;
     font-weight: 300;
     line-height: 1.2;
-}
+  }
   /* body{
     background-color: #ffffff;
     background-image: none;
   } */
-  
-  .footer{
+
+  .footer {
     display: none;
   }
 }
