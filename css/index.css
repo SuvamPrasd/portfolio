@@ -77,10 +77,10 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
     font-weight: 300;
     line-height: 1.2;
 }
-  body{
+  /* body{
     background-color: #ffffff;
     background-image: none;
-  }
+  } */
   
   .footer{
     display: none;
