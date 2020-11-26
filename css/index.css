@@ -93,6 +93,10 @@ body {
   margin-top: 8rem;
 }
 
+.material-icons{
+  color: #58D68D;
+}
+
 .happy-talk {
   font-size: 6rem;
   font-weight: 300;
