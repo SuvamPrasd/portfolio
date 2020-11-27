@@ -10,65 +10,120 @@
     />
     <link
       rel="stylesheet"
-      href="../Hover-master/Hover-master/css/hover-min.css"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="stylesheet" href="../css/projects.css" />
   </head>
-  <body id="bgc3">
-    <div class="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="d-flex flex-column">
-              <h1 id="welcome-text1">Projects</h1>
-              <div class="proj-div">
-                <h4><a class="proj-links" href="">Flutter Shopping App</a></h4>
-                <p class="date">Apr 2020 – Jun 2020</p>
-                <p>
-                  This is an e-commerce shopping flutter app for users. As a
-                  backend service we are using firebase to store product data,
-                  users authentication data, and purchase order data of the
-                  users.
-                </p>
+  <body>
+    <div class="container">
+      <h1 class="happy-talk mt-5 mb-5">Projects</h1>
+      <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img
+                src="https://www.inovex.de/blog/wp-content/uploads/2019/04/flutter-ios.png"
+                alt=""
+              />
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">Apr 2020 – Jun 2020</span>
+              <div class="blog-slider__title">Flutter Shopping App</div>
+              <div class="blog-slider__text">
+                This is an e-commerce shopping flutter app for users. As a
+                backend service we are using firebase to store product data,
+                users authentication data, and purchase order data of the users.
               </div>
-              <div class="proj-div">
-                <h4>
-                  <a class="proj-links" href=""
-                    >Action on Google (Java Gyan Quiz Game)</a
-                  >
-                </h4>
-                <p class="date">Aug 2019</p>
-                <p>
-                  It is a Java quiz game which has been published in action on
-                  Google. You can try my game on your smartphone, just you have
-                  to say " hello google " and then say " Talk to Java Gyan ".
-                  Rate your knowledge and get scores.
-                </p>
+              <a
+                href="https://github.com/SuvamPrasd/flutter-shopping-app"
+                class="blog-slider__button"
+                >READ MORE</a
+              >
+            </div>
+          </div>
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img
+                src="https://www.inovex.de/blog/wp-content/uploads/2019/04/flutter-ios.png"
+                alt=""
+              />
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">Nov 2020</span>
+              <div class="blog-slider__title">WeAdoreYou Flutter App</div>
+              <div class="blog-slider__text">
+                In this App, you can find the details related to females'
+                puberty, periods/menstruation, health issues, and more. The
+                female will get enough information about their body so that they
+                will not be dependent on others.
               </div>
-              <div class="proj-div">
-                <h4>
-                  <a class="proj-links" href=""
-                    >E-commerce resposive dynamic website</a
-                  >
-                </h4>
-                <p class="date">May 2019 – Jul 2019</p>
-                <p>
-                  Project is basically related to web development where a
-                  dynamic responsive and mobile-friendly e-commerce website have
-                  been created by me with a database that used to takes users
-                  inputs. The inputs are sign-in, sign-up, change password, etc.
-                </p>
+              <a
+                href="https://github.com/SuvamPrasd/WeAdoreYou"
+                class="blog-slider__button"
+                >READ MORE</a
+              >
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img
+                src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                alt=""
+              />
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">May 2019 – Jul 2019</span>
+              <div class="blog-slider__title">
+                E-commerce resposive dynamic website
               </div>
+              <div class="blog-slider__text">
+                Project is basically related to web development where a dynamic
+                responsive and mobile-friendly e-commerce website have been
+                created by me with ...
+              </div>
+              <a
+                href="https://github.com/SuvamPrasd/E-commerce-website"
+                class="blog-slider__button"
+                >READ MORE</a
+              >
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <a href="./experience.html" class="btn btn-color hvr-hang">Back</a>
+        <div
+          class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"
+        >
+          <span
+            class="swiper-pagination-bullet"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 1"
+          ></span
+          ><span
+            class="swiper-pagination-bullet swiper-pagination-bullet-active"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 2"
+          ></span
+          ><span
+            class="swiper-pagination-bullet"
+            tabindex="0"
+            role="button"
+            aria-label="Go to slide 3"
+          ></span>
         </div>
-        <div class="mb-5"></div>
+      </div>
+
+      <div class="d-flex justify-content-end mb-4">
+        <a class="btn btn-warning shadow font-weight-bold" href="../index.html"
+          >BACK</a
+        >
       </div>
     </div>
-    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/slider_animate.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
